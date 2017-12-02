@@ -6,13 +6,21 @@ Mumble Merge uses inline text parsing. Put phrases you want to swap inside \[squ
 Example usage:
 
 \> var str = "This is a \[\[semi-randomly\]\[procedurally\]\] generated string."
+
 \> mumble(str);
+
 \> "This is a semi-randomly generated string."
+
 \> mumble(str);
+
 \> "This is a procedurally generated string."
+
 \> mumble(str);
+
 \> "This is a procedurally generated string."
+
 \> mumble(str);
+
 \> "This is a semi-randomly generated string."
 
 
